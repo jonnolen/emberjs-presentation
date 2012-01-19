@@ -1,0 +1,948 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>JsDoc Reference - Ember.Array</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	width: 800px;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+#index
+{
+	margin-top: 24px;
+	float: left;
+	width: 160px;
+	position: absolute;
+	left: 8px;
+	background-color: #F3F3F3;
+	padding: 8px;
+}
+
+#content
+{
+	margin-left: 190px;
+	width: 600px;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.summaryTable { width: 100%; }
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: #7F8FB1;
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #777;
+	font-style: italic;
+}
+
+.fineprint
+{
+	text-align: right;
+	font-size: 10px;
+}
+		</style>
+	</head>
+
+	<body>
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center"><a href="../index.html">Class Index</a>
+| <a href="../files.html">File Index</a></div>
+<hr />
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/Ember.html">Ember</a></li>
+	
+	<li><a href="../symbols/Ember.Application.html">Ember.Application</a></li>
+	
+	<li><a href="../symbols/Ember.Array.html">Ember.Array</a></li>
+	
+	<li><a href="../symbols/Ember.ArrayController.html">Ember.ArrayController</a></li>
+	
+	<li><a href="../symbols/Ember.ArrayProxy.html">Ember.ArrayProxy</a></li>
+	
+	<li><a href="../symbols/Ember.Binding.html">Ember.Binding</a></li>
+	
+	<li><a href="../symbols/Ember.CollectionView.html">Ember.CollectionView</a></li>
+	
+	<li><a href="../symbols/Ember.Comparable.html">Ember.Comparable</a></li>
+	
+	<li><a href="../symbols/Ember.ComputedProperty.html">Ember.ComputedProperty</a></li>
+	
+	<li><a href="../symbols/Ember.Copyable.html">Ember.Copyable</a></li>
+	
+	<li><a href="../symbols/Ember.CoreObject.html">Ember.CoreObject</a></li>
+	
+	<li><a href="../symbols/Ember.Enumerable.html">Ember.Enumerable</a></li>
+	
+	<li><a href="../symbols/Ember.Error.html">Ember.Error</a></li>
+	
+	<li><a href="../symbols/Ember.Freezable.html">Ember.Freezable</a></li>
+	
+	<li><a href="../symbols/Ember.Handlebars.html">Ember.Handlebars</a></li>
+	
+	<li><a href="../symbols/Ember.Logger.html">Ember.Logger</a></li>
+	
+	<li><a href="../symbols/Ember.Mixin.html">Ember.Mixin</a></li>
+	
+	<li><a href="../symbols/Ember.MutableArray.html">Ember.MutableArray</a></li>
+	
+	<li><a href="../symbols/Ember.MutableEnumerable.html">Ember.MutableEnumerable</a></li>
+	
+	<li><a href="../symbols/Ember.NativeArray.html">Ember.NativeArray</a></li>
+	
+	<li><a href="../symbols/Ember.Object.html">Ember.Object</a></li>
+	
+	<li><a href="../symbols/Ember.Observable.html">Ember.Observable</a></li>
+	
+	<li><a href="../symbols/Ember.platform.html">Ember.platform</a></li>
+	
+	<li><a href="../symbols/Ember.RenderBuffer.html">Ember.RenderBuffer</a></li>
+	
+	<li><a href="../symbols/Ember.RunLoop.html">Ember.RunLoop</a></li>
+	
+	<li><a href="../symbols/Ember.Set.html">Ember.Set</a></li>
+	
+	<li><a href="../symbols/Ember.StateManager.html">Ember.StateManager</a></li>
+	
+	<li><a href="../symbols/Ember.String.html">Ember.String</a></li>
+	
+	<li><a href="../symbols/Ember.TextArea.html">Ember.TextArea</a></li>
+	
+	<li><a href="../symbols/Ember.TextField.html">Ember.TextField</a></li>
+	
+	<li><a href="../symbols/Ember.TextSupport.html">Ember.TextSupport</a></li>
+	
+	<li><a href="../symbols/Ember.View.html">Ember.View</a></li>
+	
+	<li><a href="../symbols/Handlebars.helpers.html">Handlebars.helpers</a></li>
+	
+	<li><a href="../symbols/String.html">String</a></li>
+	
+	<li><a href="../symbols/window.html">window</a></li>
+	
+</ul>
+<hr />
+			<!-- end publish.classesIndex -->
+		</div>
+		
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Namespace Ember.Array
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				<br />Extends
+					<a href="../symbols/Ember.Enumerable.html">Ember.Enumerable</a>.<br />
+				
+			
+				This module implements Observer-friendly Array-like behavior.  This mixin is
+  picked up by the Array class as well as other controllers, etc. that want to
+  appear to be arrays.
+
+  Unlike Ember.Enumerable, this mixin defines methods specifically for
+  collections that provide index-ordered access to their contents.  When you
+  are designing code that needs to accept any kind of Array-like object, you
+  should use these methods instead of Array primitives because these will
+  properly notify observers of changes to the array.
+
+  Although these methods are efficient, they do add a layer of indirection to
+  your application so it is a good idea to use them only when you need the
+  flexibility of using both true JavaScript arrays and "virtual" arrays such
+  as controllers and collections.
+
+  You can use the methods defined in this module to access and modify array
+  contents in a KVO-friendly way.  You can also be notified whenever the
+  membership if an array changes by changing the syntax of the property to
+  .observes('*myProperty.[]') .
+
+  To support Ember.Array in your own class, you must override two
+  primitives to use it: replace() and objectAt().
+
+  Note that the Ember.Array mixin also incorporates the Ember.Enumerable mixin.  All
+  Ember.Array-like objects are also enumerable.
+				
+				
+					<br /><i>Defined in: </i> <a href="../symbols/src/packages_ember-runtime_lib_mixins_array.js.html">array.js</a>.
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class Ember.Array.">
+				<caption>Namespace Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/Ember.Array.html#constructor">Ember.Array</a></b>
+							</div>
+							<div class="description"></div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the fields documented in the class Ember.Array.">
+					<caption>Field Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Field Attributes</th>
+							<th scope="col">Field Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/Ember.Array.html#hasArrayObservers">hasArrayObservers</a></b>
+								</div>
+								<div class="description">Becomes true whenever the array currently has observers watching changes
+    on the array.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/Ember.Array.html#length">length</a></b>
+								</div>
+								<div class="description"></div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+				<dl class="inheritsList">
+				
+				</dl>
+				
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class Ember.Array.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Ember.Array.html#addArrayObserver">addArrayObserver</a></b>(target, opts)
+								</div>
+								<div class="description">Adds an array observer to the receiving array.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Ember.Array.html#arrayContentWillChange">arrayContentWillChange</a></b>(startIdx, removeAmt, addAmt)
+								</div>
+								<div class="description">If you are implementing an object that supports Ember.Array, call this 
+    method just before the array content changes to notify any observers and
+    invalidate any related properties.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Ember.Array.html#indexOf">indexOf</a></b>(object, startAt)
+								</div>
+								<div class="description">Returns the index for a particular object in the index.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Ember.Array.html#lastIndexOf">lastIndexOf</a></b>(object, startAt)
+								</div>
+								<div class="description">Returns the last index for a particular object in the index.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Ember.Array.html#objectAt">objectAt</a></b>(idx)
+								</div>
+								<div class="description">This is one of the primitives you must implement to support Ember.Array.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Ember.Array.html#removeArrayObserver">removeArrayObserver</a></b>(target, opts)
+								</div>
+								<div class="description">Removes an array observer from the object if the observer is current 
+    registered.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/Ember.Array.html#slice">slice</a></b>(beginIndex, endIndex)
+								</div>
+								<div class="description">Returns a new array that is a slice of the receiver.</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+				<dl class="inheritsList">
+				
+				</dl>
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Namespace Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>Ember.Array</b>
+				</div>
+				
+				<div class="description">
+					
+					
+				</div>
+				
+				
+				
+				
+					
+					
+					
+						<dl class="detailList">
+						<dt class="heading">Since:</dt>
+							<dd>Ember 0.9.0</dd>
+						</dl>
+					
+					
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+				<div class="sectionTitle">
+					Field Detail
+				</div>
+				
+					<a name="hasArrayObservers"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>hasArrayObservers</b>
+					
+					</div>
+					<div class="description">
+						Becomes true whenever the array currently has observers watching changes
+    on the array.
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="length"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>length</b>
+					
+					</div>
+					<div class="description">
+						
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					
+				
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name="addArrayObserver"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/Ember.Array.html">Ember.Array</a>}</span>
+					<b>addArrayObserver</b>(target, opts)
+					
+					</div>
+					<div class="description">
+						Adds an array observer to the receiving array.  The array observer object
+    normally must implement two methods:
+`arrayWillChange(start, removeCount, addCount)` - This method will be
+      called just before the array is modified.
+`arrayDidChange(start, removeCount, addCount)` - This method will be
+      called just after the array is modified.
+      
+    Both callbacks will be passed the starting index of the change as well a 
+    a count of the items to be removed and added.  You can use these callbacks
+    to optionally inspect the array during the change, clear caches, or do 
+    any other bookkeeping necessary.
+    
+    In addition to passing a target, you can also include an options hash 
+    which you can use to override the method names that will be invoked on the
+    target.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>target</b>
+									
+								</dt>
+								<dd>The observer object.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Hash}</span> <b>opts</b>
+									
+								</dt>
+								<dd>Optional hash of configuration options including willChange, didChange,
+      and a context option.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/Ember.Array.html">Ember.Array</a>}</span> receiver</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="arrayContentWillChange"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/Ember.Array.html">Ember.Array</a>}</span>
+					<b>arrayContentWillChange</b>(startIdx, removeAmt, addAmt)
+					
+					</div>
+					<div class="description">
+						If you are implementing an object that supports Ember.Array, call this 
+    method just before the array content changes to notify any observers and
+    invalidate any related properties.  Pass the starting index of the change
+    as well as a delta of the amounts to change.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>startIdx</b>
+									
+								</dt>
+								<dd>The starting index in the array that will change.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>removeAmt</b>
+									
+								</dt>
+								<dd>The number of items that will be removed.  If you pass null assumes 0</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>addAmt</b>
+									
+								</dt>
+								<dd>The number of items that will be added.  If you pass null assumes 0.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/Ember.Array.html">Ember.Array</a>}</span> receiver</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="indexOf"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>indexOf</b>(object, startAt)
+					
+					</div>
+					<div class="description">
+						Returns the index for a particular object in the index.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>object</b>
+									
+								</dt>
+								<dd>the item to search for</dd>
+							
+								<dt>
+									<span class="light fixedFont">{NUmber}</span> <b>startAt</b>
+									
+								</dt>
+								<dd>optional starting location to search, default 0</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> index of -1 if not found</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="lastIndexOf"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>lastIndexOf</b>(object, startAt)
+					
+					</div>
+					<div class="description">
+						Returns the last index for a particular object in the index.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>object</b>
+									
+								</dt>
+								<dd>the item to search for</dd>
+							
+								<dt>
+									<span class="light fixedFont">{NUmber}</span> <b>startAt</b>
+									
+								</dt>
+								<dd>optional starting location to search, default 0</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> index of -1 if not found</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="objectAt"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>objectAt</b>(idx)
+					
+					</div>
+					<div class="description">
+						This is one of the primitives you must implement to support Ember.Array.
+    Returns the object at the named index.  If your object supports retrieving
+    the value of an array item using get() (i.e. myArray.get(0)), then you do
+    not need to implement this method yourself.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>idx</b>
+									
+								</dt>
+								<dd>The index of the item to return.  If idx exceeds the current length,
+      return null.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="removeArrayObserver"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{<a href="../symbols/Ember.Array.html">Ember.Array</a>}</span>
+					<b>removeArrayObserver</b>(target, opts)
+					
+					</div>
+					<div class="description">
+						Removes an array observer from the object if the observer is current 
+    registered.  Calling this method multiple times with the same object will
+    have no effect.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>target</b>
+									
+								</dt>
+								<dd>The object observing the array.</dd>
+							
+								<dt>
+									<b>opts</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/Ember.Array.html">Ember.Array</a>}</span> receiver</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="slice"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Array}</span>
+					<b>slice</b>(beginIndex, endIndex)
+					
+					</div>
+					<div class="description">
+						Returns a new array that is a slice of the receiver.  This implementation
+    uses the observable array methods to retrieve the objects for the new
+    slice.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b>beginIndex</b>
+									
+								</dt>
+								<dd>{Integer} (Optional) index to begin slicing from.</dd>
+							
+								<dt>
+									<b>endIndex</b>
+									
+								</dt>
+								<dd>{Integer} (Optional) index to end the slice at.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> New array with specified slice</dd>
+							
+							</dl>
+						
+						
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+
+		
+<!-- ============================== footer ================================= -->
+		<div class="fineprint" style="clear:both">
+			&copy;2011<br />
+			Documentation generated by <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0 on Sat Dec 31 2011 13:53:33 GMT-0500 (EST)
+		</div>
+	</body>
+</html>

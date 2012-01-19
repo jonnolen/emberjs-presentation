@@ -1,0 +1,834 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>JsDoc Reference - Ember.String</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	width: 800px;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+#index
+{
+	margin-top: 24px;
+	float: left;
+	width: 160px;
+	position: absolute;
+	left: 8px;
+	background-color: #F3F3F3;
+	padding: 8px;
+}
+
+#content
+{
+	margin-left: 190px;
+	width: 600px;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.summaryTable { width: 100%; }
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: #7F8FB1;
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #777;
+	font-style: italic;
+}
+
+.fineprint
+{
+	text-align: right;
+	font-size: 10px;
+}
+		</style>
+	</head>
+
+	<body>
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center"><a href="../index.html">Class Index</a>
+| <a href="../files.html">File Index</a></div>
+<hr />
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/Ember.html">Ember</a></li>
+	
+	<li><a href="../symbols/Ember.Application.html">Ember.Application</a></li>
+	
+	<li><a href="../symbols/Ember.Array.html">Ember.Array</a></li>
+	
+	<li><a href="../symbols/Ember.ArrayController.html">Ember.ArrayController</a></li>
+	
+	<li><a href="../symbols/Ember.ArrayProxy.html">Ember.ArrayProxy</a></li>
+	
+	<li><a href="../symbols/Ember.Binding.html">Ember.Binding</a></li>
+	
+	<li><a href="../symbols/Ember.CollectionView.html">Ember.CollectionView</a></li>
+	
+	<li><a href="../symbols/Ember.Comparable.html">Ember.Comparable</a></li>
+	
+	<li><a href="../symbols/Ember.ComputedProperty.html">Ember.ComputedProperty</a></li>
+	
+	<li><a href="../symbols/Ember.Copyable.html">Ember.Copyable</a></li>
+	
+	<li><a href="../symbols/Ember.CoreObject.html">Ember.CoreObject</a></li>
+	
+	<li><a href="../symbols/Ember.Enumerable.html">Ember.Enumerable</a></li>
+	
+	<li><a href="../symbols/Ember.Error.html">Ember.Error</a></li>
+	
+	<li><a href="../symbols/Ember.Freezable.html">Ember.Freezable</a></li>
+	
+	<li><a href="../symbols/Ember.Handlebars.html">Ember.Handlebars</a></li>
+	
+	<li><a href="../symbols/Ember.Logger.html">Ember.Logger</a></li>
+	
+	<li><a href="../symbols/Ember.Mixin.html">Ember.Mixin</a></li>
+	
+	<li><a href="../symbols/Ember.MutableArray.html">Ember.MutableArray</a></li>
+	
+	<li><a href="../symbols/Ember.MutableEnumerable.html">Ember.MutableEnumerable</a></li>
+	
+	<li><a href="../symbols/Ember.NativeArray.html">Ember.NativeArray</a></li>
+	
+	<li><a href="../symbols/Ember.Object.html">Ember.Object</a></li>
+	
+	<li><a href="../symbols/Ember.Observable.html">Ember.Observable</a></li>
+	
+	<li><a href="../symbols/Ember.platform.html">Ember.platform</a></li>
+	
+	<li><a href="../symbols/Ember.RenderBuffer.html">Ember.RenderBuffer</a></li>
+	
+	<li><a href="../symbols/Ember.RunLoop.html">Ember.RunLoop</a></li>
+	
+	<li><a href="../symbols/Ember.Set.html">Ember.Set</a></li>
+	
+	<li><a href="../symbols/Ember.StateManager.html">Ember.StateManager</a></li>
+	
+	<li><a href="../symbols/Ember.String.html">Ember.String</a></li>
+	
+	<li><a href="../symbols/Ember.TextArea.html">Ember.TextArea</a></li>
+	
+	<li><a href="../symbols/Ember.TextField.html">Ember.TextField</a></li>
+	
+	<li><a href="../symbols/Ember.TextSupport.html">Ember.TextSupport</a></li>
+	
+	<li><a href="../symbols/Ember.View.html">Ember.View</a></li>
+	
+	<li><a href="../symbols/Handlebars.helpers.html">Handlebars.helpers</a></li>
+	
+	<li><a href="../symbols/String.html">String</a></li>
+	
+	<li><a href="../symbols/window.html">window</a></li>
+	
+</ul>
+<hr />
+			<!-- end publish.classesIndex -->
+		</div>
+		
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Namespace Ember.String
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				
+			
+				
+				
+				
+					<br /><i>Defined in: </i> <a href="../symbols/src/packages_ember-runtime_lib_system_string.js.html">string.js</a>.
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class Ember.String.">
+				<caption>Namespace Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/Ember.String.html#constructor">Ember.String</a></b>
+							</div>
+							<div class="description">Defines string helper methods including string formatting and localization.</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class Ember.String.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.String.<b><a href="../symbols/Ember.String.html#.camelize">camelize</a></b>(str)
+								</div>
+								<div class="description">Converts a dasherized string or a string with spaces or underscores into
+    camelized string.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.String.<b><a href="../symbols/Ember.String.html#.dasherize">dasherize</a></b>(str)
+								</div>
+								<div class="description">Converts a camelized string or a string with spaces or underscores into
+    a string with components separated by dashes.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.String.<b><a href="../symbols/Ember.String.html#.decamelize">decamelize</a></b>(str)
+								</div>
+								<div class="description">Converts a camelized string into all lower case separated by underscores.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.String.<b><a href="../symbols/Ember.String.html#.fmt">fmt</a></b>(args, formats)
+								</div>
+								<div class="description">Apply formatting options to the string.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.String.<b><a href="../symbols/Ember.String.html#.loc">loc</a></b>(str, formats)
+								</div>
+								<div class="description">Formats the passed string, but first looks up the string in the localized
+    strings hash.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.String.<b><a href="../symbols/Ember.String.html#.underscore">underscore</a></b>(str)
+								</div>
+								<div class="description">More general than decamelize, converts a dasherized or camelcased string or a string with spaces into
+    all lower case separated by undescores.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.String.<b><a href="../symbols/Ember.String.html#.w">w</a></b>(str)
+								</div>
+								<div class="description">Splits a string into separate units separated by spaces, eliminating any
+    empty strings in the process.</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Namespace Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>Ember.String</b>
+				</div>
+				
+				<div class="description">
+					Defines string helper methods including string formatting and localization.
+  Unless Ember.EXTEND_PROTOTYPES = false these methods will also be added to the
+  String.prototype as well.
+					
+				</div>
+				
+				
+				
+				
+					
+					
+					
+					
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name=".camelize"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{<a href="../symbols/String.html">String</a>}</span>
+					<span class="light">Ember.String.</span><b>camelize</b>(str)
+					
+					</div>
+					<div class="description">
+						Converts a dasherized string or a string with spaces or underscores into
+    camelized string.
+
+    h2. Examples
+
+    | *Input String* | *Output String* |
+    | my favorite items | myFavoriteItems |
+    | css-class-name | cssClassName |
+    | action_name | actionName |
+    | innerHTML | innerHTML |
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b>str</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/String.html">String</a>}</span> the camelized string.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".dasherize"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{<a href="../symbols/String.html">String</a>}</span>
+					<span class="light">Ember.String.</span><b>dasherize</b>(str)
+					
+					</div>
+					<div class="description">
+						Converts a camelized string or a string with spaces or underscores into
+    a string with components separated by dashes.
+
+    h2. Examples
+
+    | *Input String* | *Output String* |
+    | my favorite items | my-favorite-items |
+    | css-class-name | css-class-name |
+    | action_name | action-name |
+    | innerHTML | inner-html |
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b>str</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/String.html">String</a>}</span> the dasherized string.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".decamelize"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{<a href="../symbols/String.html">String</a>}</span>
+					<span class="light">Ember.String.</span><b>decamelize</b>(str)
+					
+					</div>
+					<div class="description">
+						Converts a camelized string into all lower case separated by underscores.
+
+    h2. Examples
+
+    | *Input String* | *Output String* |
+    | my favorite items | my favorite items |
+    | css-class-name | css-class-name |
+    | action_name | action_name |
+    | innerHTML | inner_html |
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b>str</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/String.html">String</a>}</span> the decamelized string.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".fmt"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{<a href="../symbols/String.html">String</a>}</span>
+					<span class="light">Ember.String.</span><b>fmt</b>(args, formats)
+					
+					</div>
+					<div class="description">
+						Apply formatting options to the string.  This will look for occurrences
+    of %@ in your string and substitute them with the arguments you pass into
+    this method.  If you want to control the specific order of replacement,
+    you can add a number after the key as well to indicate which argument
+    you want to insert.
+
+    Ordered insertions are most useful when building loc strings where values
+    you need to insert may appear in different orders.
+
+    ## Examples
+
+        "Hello %@ %@".fmt('John', 'Doe') => "Hello John Doe"
+        "Hello %@2, %@1".fmt('John', 'Doe') => "Hello Doe, John"
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object...}</span> <b>args</b>
+									<i>Optional</i>
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<b>formats</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/String.html">String</a>}</span> formatted string</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".loc"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{<a href="../symbols/String.html">String</a>}</span>
+					<span class="light">Ember.String.</span><b>loc</b>(str, formats)
+					
+					</div>
+					<div class="description">
+						Formats the passed string, but first looks up the string in the localized
+    strings hash.  This is a convenient way to localize text.  See
+    `Ember.String.fmt()` for more information on formatting.
+
+    Note that it is traditional but not required to prefix localized string
+    keys with an underscore or other character so you can easily identify
+    localized strings.
+
+    # Example Usage
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/String.html">String</a>}</span> <b>str</b>
+									
+								</dt>
+								<dd>The string to format</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>formats</b>
+									
+								</dt>
+								<dd>Optional array of parameters to interpolate into string.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/String.html">String</a>}</span> formatted string</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".underscore"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{<a href="../symbols/String.html">String</a>}</span>
+					<span class="light">Ember.String.</span><b>underscore</b>(str)
+					
+					</div>
+					<div class="description">
+						More general than decamelize, converts a dasherized or camelcased string or a string with spaces into
+    all lower case separated by undescores.
+
+    h2. Examples
+
+    | *Input String* | *Output String* |
+    | my favorite items | my_favorite_items |
+    | css-class-name | css_class_name |
+    | action_name | action_name |
+    | innerHTML | inner_html |
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b>str</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/String.html">String</a>}</span> the camelized string.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".w"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{<a href="../symbols/String.html">String</a>}</span>
+					<span class="light">Ember.String.</span><b>w</b>(str)
+					
+					</div>
+					<div class="description">
+						Splits a string into separate units separated by spaces, eliminating any
+    empty strings in the process.  This is a convenience method for split that
+    is mostly useful when applied to the String.prototype.
+
+    # Example Usage
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/String.html">String</a>}</span> <b>str</b>
+									
+								</dt>
+								<dd>The string to split</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/String.html">String</a>}</span> split string</dd>
+							
+							</dl>
+						
+						
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+
+		
+<!-- ============================== footer ================================= -->
+		<div class="fineprint" style="clear:both">
+			&copy;2011<br />
+			Documentation generated by <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0 on Sat Dec 31 2011 13:53:33 GMT-0500 (EST)
+		</div>
+	</body>
+</html>

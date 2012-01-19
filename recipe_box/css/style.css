@@ -1,0 +1,111 @@
+/*
+    // ========================================== \\
+   ||                                              ||
+   ||               Your styles !                  ||
+   ||                                              ||
+    \\ ========================================== //
+*/
+html,body{
+    height:100%;
+    font-family:helvetica,verdana,sans-serif;
+}
+html{
+    padding:0px;
+    margin:0px;
+}
+body{
+    padding:0px;
+    margin:0px;
+    background-color:#555;
+}
+h1,h2,h3,ol,ul{
+    margin:0;
+    padding:0;
+}
+
+div.wrapper{
+    width:80%;
+    padding:0px;
+    margin:0px auto;
+    height:100%;
+}
+div.content{
+   background-color:
+   
+}
+header{ 
+    background-color:#AAA;
+    padding:0;
+    margin:0;
+    color:#FFF;
+}
+header h1{
+    font-size:3em;
+    text-align:center;
+    margin:0;
+    padding:.5em;
+}
+header h2{
+    padding:0 .5em;
+    font-size:1em;
+    text-align:right;
+    font-style:italic;
+    font-weight:normal;
+    margin:0;
+}
+em{
+    font-style:italic;
+}
+div.is-selected{
+    background-color:gray;
+    color:white;
+}
+.clearfix{
+    clear:both;
+}
+.recipe-list{
+    float:left;
+    width:30%;
+    height:100%;
+    overflow:auto;
+    background-color:#ECECEC;
+    margin:0;
+    padding:.5em 0;
+}
+.view-recipe-container{
+    float:left;
+    margin:0px;
+    position:relative;
+    left:.5%;
+    width:69.5%;
+    height:100%;
+    overflow:auto;
+    background-color:#ECECEC;
+    padding:.5em 0;
+}
+
+.view-recipe-container h1{
+    font-size:1.5em;
+    padding:.3em .2em;
+}
+.view-recipe-container h2{
+    font-size:1.2em;
+    padding:.3em .2em;
+}
+.view-recipe-container h3{
+    font-size:1em;
+    padding:.3em .2em;
+}
+.view-recipe-container ol, .view-recipe-container ul{
+    padding-left:1em;
+}
+div.ingredient-list{
+    padding:3px 0;
+    list-style-position:inside;
+}
+div.meta-information{
+    list-style-position:inside;
+}
+div.instructions{
+    list-style-position:inside;
+}

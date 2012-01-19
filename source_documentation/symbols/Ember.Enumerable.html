@@ -1,0 +1,2098 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>JsDoc Reference - Ember.Enumerable</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	width: 800px;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+#index
+{
+	margin-top: 24px;
+	float: left;
+	width: 160px;
+	position: absolute;
+	left: 8px;
+	background-color: #F3F3F3;
+	padding: 8px;
+}
+
+#content
+{
+	margin-left: 190px;
+	width: 600px;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.summaryTable { width: 100%; }
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: #7F8FB1;
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #777;
+	font-style: italic;
+}
+
+.fineprint
+{
+	text-align: right;
+	font-size: 10px;
+}
+		</style>
+	</head>
+
+	<body>
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center"><a href="../index.html">Class Index</a>
+| <a href="../files.html">File Index</a></div>
+<hr />
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/Ember.html">Ember</a></li>
+	
+	<li><a href="../symbols/Ember.Application.html">Ember.Application</a></li>
+	
+	<li><a href="../symbols/Ember.Array.html">Ember.Array</a></li>
+	
+	<li><a href="../symbols/Ember.ArrayController.html">Ember.ArrayController</a></li>
+	
+	<li><a href="../symbols/Ember.ArrayProxy.html">Ember.ArrayProxy</a></li>
+	
+	<li><a href="../symbols/Ember.Binding.html">Ember.Binding</a></li>
+	
+	<li><a href="../symbols/Ember.CollectionView.html">Ember.CollectionView</a></li>
+	
+	<li><a href="../symbols/Ember.Comparable.html">Ember.Comparable</a></li>
+	
+	<li><a href="../symbols/Ember.ComputedProperty.html">Ember.ComputedProperty</a></li>
+	
+	<li><a href="../symbols/Ember.Copyable.html">Ember.Copyable</a></li>
+	
+	<li><a href="../symbols/Ember.CoreObject.html">Ember.CoreObject</a></li>
+	
+	<li><a href="../symbols/Ember.Enumerable.html">Ember.Enumerable</a></li>
+	
+	<li><a href="../symbols/Ember.Error.html">Ember.Error</a></li>
+	
+	<li><a href="../symbols/Ember.Freezable.html">Ember.Freezable</a></li>
+	
+	<li><a href="../symbols/Ember.Handlebars.html">Ember.Handlebars</a></li>
+	
+	<li><a href="../symbols/Ember.Logger.html">Ember.Logger</a></li>
+	
+	<li><a href="../symbols/Ember.Mixin.html">Ember.Mixin</a></li>
+	
+	<li><a href="../symbols/Ember.MutableArray.html">Ember.MutableArray</a></li>
+	
+	<li><a href="../symbols/Ember.MutableEnumerable.html">Ember.MutableEnumerable</a></li>
+	
+	<li><a href="../symbols/Ember.NativeArray.html">Ember.NativeArray</a></li>
+	
+	<li><a href="../symbols/Ember.Object.html">Ember.Object</a></li>
+	
+	<li><a href="../symbols/Ember.Observable.html">Ember.Observable</a></li>
+	
+	<li><a href="../symbols/Ember.platform.html">Ember.platform</a></li>
+	
+	<li><a href="../symbols/Ember.RenderBuffer.html">Ember.RenderBuffer</a></li>
+	
+	<li><a href="../symbols/Ember.RunLoop.html">Ember.RunLoop</a></li>
+	
+	<li><a href="../symbols/Ember.Set.html">Ember.Set</a></li>
+	
+	<li><a href="../symbols/Ember.StateManager.html">Ember.StateManager</a></li>
+	
+	<li><a href="../symbols/Ember.String.html">Ember.String</a></li>
+	
+	<li><a href="../symbols/Ember.TextArea.html">Ember.TextArea</a></li>
+	
+	<li><a href="../symbols/Ember.TextField.html">Ember.TextField</a></li>
+	
+	<li><a href="../symbols/Ember.TextSupport.html">Ember.TextSupport</a></li>
+	
+	<li><a href="../symbols/Ember.View.html">Ember.View</a></li>
+	
+	<li><a href="../symbols/Handlebars.helpers.html">Handlebars.helpers</a></li>
+	
+	<li><a href="../symbols/String.html">String</a></li>
+	
+	<li><a href="../symbols/window.html">window</a></li>
+	
+</ul>
+<hr />
+			<!-- end publish.classesIndex -->
+		</div>
+		
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Class Ember.Enumerable
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				
+			
+				This mixin defines the common interface implemented by enumerable objects
+  in Ember.  Most of these methods follow the standard Array iteration
+  API defined up to JavaScript 1.8 (excluding language-specific features that
+  cannot be emulated in older versions of JavaScript).
+
+  This mixin is applied automatically to the Array class on page load, so you
+  can use any of these methods on simple arrays.  If Array already implements
+  one of these methods, the mixin will not override them.
+
+  h3. Writing Your Own Enumerable
+
+  To make your own custom class enumerable, you need two items:
+
+  1. You must have a length property.  This property should change whenever
+     the number of items in your enumerable object changes.  If you using this
+     with an Ember.Object subclass, you should be sure to change the length
+     property using set().
+
+  2. If you must implement nextObject().  See documentation.
+
+  Once you have these two methods implement, apply the Ember.Enumerable mixin
+  to your class and you will be able to enumerate the contents of your object
+  like any other collection.
+
+  h3. Using Ember Enumeration with Other Libraries
+
+  Many other libraries provide some kind of iterator or enumeration like
+  facility.  This is often where the most common API conflicts occur.
+  Ember's API is designed to be as friendly as possible with other
+  libraries by implementing only methods that mostly correspond to the
+  JavaScript 1.8 API.
+				
+				
+					<br /><i>Defined in: </i> <a href="../symbols/src/packages_ember-runtime_lib_mixins_enumerable.js.html">enumerable.js</a>.
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class Ember.Enumerable.">
+				<caption>Class Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/Ember.Enumerable.html#constructor">Ember.Enumerable</a></b>()
+							</div>
+							<div class="description"></div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the fields documented in the class Ember.Enumerable.">
+					<caption>Field Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Field Attributes</th>
+							<th scope="col">Field Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.firstObject">firstObject</a></b>
+								</div>
+								<div class="description">Helper method returns the first object from a collection.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.hasEnumerableObservers">hasEnumerableObservers</a></b>
+								</div>
+								<div class="description">Becomes true whenever the array currently has observers watching changes
+    on the array.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.lastObject">lastObject</a></b>
+								</div>
+								<div class="description">Helper method returns the last object from a collection.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.nextObject">nextObject</a></b>
+								</div>
+								<div class="description">Implement this method to make your class enumerable.</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class Ember.Enumerable.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.addEnumerableObserver">addEnumerableObserver</a></b>(target, opts)
+								</div>
+								<div class="description">Registers an enumerable observer.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.compact">compact</a></b>()
+								</div>
+								<div class="description">Generates a new array with the contents of the old array, sans any null
+    values.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.contains">contains</a></b>(obj)
+								</div>
+								<div class="description">Returns true if the passed object can be found in the receiver.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.enumerableContentDidChange">enumerableContentDidChange</a></b>(start, added, removes)
+								</div>
+								<div class="description">Invoke this method when the contents of your enumerable has changed.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.enumerableContentWillChange">enumerableContentWillChange</a></b>(removing, adding)
+								</div>
+								<div class="description">Invoke this method just before the contents of your enumerable will 
+    change.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.every">every</a></b>(callback, target)
+								</div>
+								<div class="description">Returns YES if the passed function returns YES for every item in the
+    enumeration.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.everyProperty">everyProperty</a></b>(value, value)
+								</div>
+								<div class="description">Returns true if the passed property resolves to true for all items in the
+    enumerable.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.filter">filter</a></b>(callback, target)
+								</div>
+								<div class="description">Returns an array with all of the items in the enumeration that the passed
+    function returns YES for.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.filterProperty">filterProperty</a></b>(value, value)
+								</div>
+								<div class="description">Returns an array with just the items with the matched property.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.find">find</a></b>(callback, target)
+								</div>
+								<div class="description">Returns the first item in the array for which the callback returns YES.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.findProperty">findProperty</a></b>(value, value)
+								</div>
+								<div class="description">Returns an the first item with a property matching the passed value.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.forEach">forEach</a></b>(callback, target)
+								</div>
+								<div class="description">Iterates through the enumerable, calling the passed function on each
+    item.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.getEach">getEach</a></b>(key)
+								</div>
+								<div class="description">Alias for mapProperty</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.invoke">invoke</a></b>(methodName, args)
+								</div>
+								<div class="description">Invokes the named method on every object in the receiver that
+    implements it.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.map">map</a></b>(callback, target)
+								</div>
+								<div class="description">Maps all of the items in the enumeration to another value, returning
+    a new array.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.mapProperty">mapProperty</a></b>(key)
+								</div>
+								<div class="description">Similar to map, this specialized function returns the value of the named
+    property on all items in the enumeration.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.reduce">reduce</a></b>(callback, initialValue, reducerProperty)
+								</div>
+								<div class="description">This will combine the values of the enumerator into a single value.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.removeEnumerableObserver">removeEnumerableObserver</a></b>(target, opts)
+								</div>
+								<div class="description">Removes a registered enumerable observer.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.setEach">setEach</a></b>(key, value)
+								</div>
+								<div class="description">Sets the value on the named property for each member.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.some">some</a></b>(callback, target)
+								</div>
+								<div class="description">Returns YES if the passed function returns true for any item in the
+    enumeration.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.someProperty">someProperty</a></b>(value, value)
+								</div>
+								<div class="description">Returns true if the passed property resolves to true for any item in the
+    enumerable.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.toArray">toArray</a></b>()
+								</div>
+								<div class="description">Simply converts the enumerable into a genuine array.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.uniq">uniq</a></b>()
+								</div>
+								<div class="description">Returns a new enumerable that contains only unique values.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">Ember.Enumerable.<b><a href="../symbols/Ember.Enumerable.html#.without">without</a></b>(value)
+								</div>
+								<div class="description">Returns a new enumerable that excludes the passed value.</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Class Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>Ember.Enumerable</b>()
+				</div>
+				
+				<div class="description">
+					
+					
+				</div>
+				
+				
+				
+				
+					
+					
+					
+						<dl class="detailList">
+						<dt class="heading">Since:</dt>
+							<dd>Ember 0.9</dd>
+						</dl>
+					
+					
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+				<div class="sectionTitle">
+					Field Detail
+				</div>
+				
+					<a name=".firstObject"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">Ember.Enumerable.</span><b>firstObject</b>
+					
+					</div>
+					<div class="description">
+						Helper method returns the first object from a collection.  This is usually
+    used by bindings and other parts of the framework to extract a single
+    object if the enumerable contains only one item.
+
+    If you override this method, you should implement it so that it will
+    always return the same value each time it is called.  If your enumerable
+    contains only one object, this method should always return that object.
+    If your enumerable is empty, this method should return undefined.
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name=".hasEnumerableObservers"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">Ember.Enumerable.</span><b>hasEnumerableObservers</b>
+					
+					</div>
+					<div class="description">
+						Becomes true whenever the array currently has observers watching changes
+    on the array.
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name=".lastObject"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">Ember.Enumerable.</span><b>lastObject</b>
+					
+					</div>
+					<div class="description">
+						Helper method returns the last object from a collection.
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name=".nextObject"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">Ember.Enumerable.</span><b>nextObject</b>
+					
+					</div>
+					<div class="description">
+						Implement this method to make your class enumerable.
+
+    This method will be call repeatedly during enumeration.  The index value
+    will always begin with 0 and increment monotonically.  You don't have to
+    rely on the index value to determine what object to return, but you should
+    always check the value and start from the beginning when you see the
+    requested index is 0.
+
+    The previousObject is the object that was returned from the last call
+    to nextObject for the current iteration.  This is a useful way to
+    manage iteration if you are tracing a linked list, for example.
+
+    Finally the context parameter will always contain a hash you can use as
+    a "scratchpad" to maintain any other state you need in order to iterate
+    properly.  The context object is reused and is not reset between
+    iterations so make sure you setup the context with a fresh state whenever
+    the index parameter is 0.
+
+    Generally iterators will continue to call nextObject until the index
+    reaches the your current length-1.  If you run out of data before this
+    time for some reason, you should simply return undefined.
+
+    The default impementation of this method simply looks up the index.
+    This works great on any Array-like objects.
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					
+				
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name=".addEnumerableObserver"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">Ember.Enumerable.</span><b>addEnumerableObserver</b>(target, opts)
+					
+					</div>
+					<div class="description">
+						Registers an enumerable observer.   Must implement Ember.EnumerableObserver
+    mixin.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b>target</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<b>opts</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name=".compact"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">Ember.Enumerable.</span><b>compact</b>()
+					
+					</div>
+					<div class="description">
+						Generates a new array with the contents of the old array, sans any null
+    values.
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".contains"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">Ember.Enumerable.</span><b>contains</b>(obj)
+					
+					</div>
+					<div class="description">
+						Returns true if the passed object can be found in the receiver.  The
+    default version will iterate through the enumerable until the object 
+    is found.  You may want to override this with a more efficient version.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>obj</b>
+									
+								</dt>
+								<dd>The object to search for.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> true if object is found in enumerable.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".enumerableContentDidChange"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">Ember.Enumerable.</span><b>enumerableContentDidChange</b>(start, added, removes)
+					
+					</div>
+					<div class="description">
+						Invoke this method when the contents of your enumerable has changed.
+    This will notify any observers watching for content changes.  If your are
+    implementing an ordered enumerable (such as an array), also pass the
+    start and end values where the content changed so that it can be used to
+    notify range observers.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>start</b>
+									
+								</dt>
+								<dd>optional start offset for the content change.  For unordered 
+      enumerables, you should always pass -1.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Enumerable}</span> <b>added</b>
+									
+								</dt>
+								<dd>optional enumerable containing items that were added to the set.  For
+      ordered enumerables, this should be an ordered array of items.  If no
+      items were added you can pass null.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Enumerable}</span> <b>removes</b>
+									
+								</dt>
+								<dd>optional enumerable containing items that were removed from the set. 
+      For ordered enumerables, this hsould be an ordered array of items. If 
+      no items were removed you can pass null.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> receiver</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".enumerableContentWillChange"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{<a href="../symbols/Ember.Enumerable.html">Ember.Enumerable</a>}</span>
+					<span class="light">Ember.Enumerable.</span><b>enumerableContentWillChange</b>(removing, adding)
+					
+					</div>
+					<div class="description">
+						Invoke this method just before the contents of your enumerable will 
+    change.  You can either omit the parameters completely or pass the objects
+    to be removed or added if available or just a count.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/Ember.Enumerable.html">Ember.Enumerable</a>|Number}</span> <b>removing</b>
+									
+								</dt>
+								<dd>An enumerable of the objects to be removed or the number of items to
+      be removed.</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/Ember.Enumerable.html">Ember.Enumerable</a>|Number}</span> <b>adding</b>
+									
+								</dt>
+								<dd>An enumerable of the objects to be added or the number of items to be
+      added.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/Ember.Enumerable.html">Ember.Enumerable</a>}</span> receiver</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".every"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">Ember.Enumerable.</span><b>every</b>(callback, target)
+					
+					</div>
+					<div class="description">
+						Returns YES if the passed function returns YES for every item in the
+    enumeration. This corresponds with the every() method in JavaScript 1.6.
+
+    The callback method you provide should have the following signature (all
+    parameters are optional):
+
+          function(item, index, enumerable);
+
+    - *item* is the current item in the iteration.
+    - *index* is the current index in the iteration
+    - *enumerable* is the enumerable object itself.
+
+    It should return the YES or NO.
+
+    Note that in addition to a callback, you can also pass an optional target
+    object that will be set as "this" on the context. This is a good way
+    to give your iterator function access to the current object.
+
+    Example Usage:
+
+          if (people.every(isEngineer)) { Paychecks.addBigBonus(); }
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Function}</span> <b>callback</b>
+									
+								</dt>
+								<dd>The callback to execute</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>target</b>
+									
+								</dt>
+								<dd>The target object to use</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".everyProperty"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">Ember.Enumerable.</span><b>everyProperty</b>(value, value)
+					
+					</div>
+					<div class="description">
+						Returns true if the passed property resolves to true for all items in the
+    enumerable.  This method is often simpler/faster than using a callback.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b>value</b>
+									
+								</dt>
+								<dd>{String} optional value to test against.</dd>
+							
+								<dt>
+									<b>value</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> filtered array</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".filter"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">Ember.Enumerable.</span><b>filter</b>(callback, target)
+					
+					</div>
+					<div class="description">
+						Returns an array with all of the items in the enumeration that the passed
+    function returns YES for. This method corresponds to filter() defined in
+    JavaScript 1.6.
+
+    The callback method you provide should have the following signature (all
+    parameters are optional):
+
+          function(item, index, enumerable);
+
+    - *item* is the current item in the iteration.
+    - *index* is the current index in the iteration
+    - *enumerable* is the enumerable object itself.
+
+    It should return the YES to include the item in the results, NO otherwise.
+
+    Note that in addition to a callback, you can also pass an optional target
+    object that will be set as "this" on the context. This is a good way
+    to give your iterator function access to the current object.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Function}</span> <b>callback</b>
+									
+								</dt>
+								<dd>The callback to execute</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>target</b>
+									
+								</dt>
+								<dd>The target object to use</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> A filtered array.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".filterProperty"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">Ember.Enumerable.</span><b>filterProperty</b>(value, value)
+					
+					</div>
+					<div class="description">
+						Returns an array with just the items with the matched property.  You
+    can pass an optional second argument with the target value.  Otherwise
+    this will match any property that evaluates to true.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b>value</b>
+									
+								</dt>
+								<dd>{String} optional value to test against.</dd>
+							
+								<dt>
+									<b>value</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> filtered array</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".find"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">Ember.Enumerable.</span><b>find</b>(callback, target)
+					
+					</div>
+					<div class="description">
+						Returns the first item in the array for which the callback returns YES.
+    This method works similar to the filter() method defined in JavaScript 1.6
+    except that it will stop working on the array once a match is found.
+
+    The callback method you provide should have the following signature (all
+    parameters are optional):
+
+          function(item, index, enumerable);
+
+    - *item* is the current item in the iteration.
+    - *index* is the current index in the iteration
+    - *enumerable* is the enumerable object itself.
+
+    It should return the YES to include the item in the results, NO otherwise.
+
+    Note that in addition to a callback, you can also pass an optional target
+    object that will be set as "this" on the context. This is a good way
+    to give your iterator function access to the current object.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Function}</span> <b>callback</b>
+									
+								</dt>
+								<dd>The callback to execute</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>target</b>
+									
+								</dt>
+								<dd>The target object to use</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> Found item or null.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".findProperty"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">Ember.Enumerable.</span><b>findProperty</b>(value, value)
+					
+					</div>
+					<div class="description">
+						Returns an the first item with a property matching the passed value.  You
+    can pass an optional second argument with the target value.  Otherwise
+    this will match any property that evaluates to true.
+
+    This method works much like the more generic find() method.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b>value</b>
+									
+								</dt>
+								<dd>{String} optional value to test against.</dd>
+							
+								<dt>
+									<b>value</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> found item or null</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".forEach"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">Ember.Enumerable.</span><b>forEach</b>(callback, target)
+					
+					</div>
+					<div class="description">
+						Iterates through the enumerable, calling the passed function on each
+    item. This method corresponds to the forEach() method defined in
+    JavaScript 1.6.
+
+    The callback method you provide should have the following signature (all
+    parameters are optional):
+
+          function(item, index, enumerable);
+
+    - *item* is the current item in the iteration.
+    - *index* is the current index in the iteration
+    - *enumerable* is the enumerable object itself.
+
+    Note that in addition to a callback, you can also pass an optional target
+    object that will be set as "this" on the context. This is a good way
+    to give your iterator function access to the current object.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Function}</span> <b>callback</b>
+									
+								</dt>
+								<dd>The callback to execute</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>target</b>
+									
+								</dt>
+								<dd>The target object to use</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> receiver</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".getEach"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">Ember.Enumerable.</span><b>getEach</b>(key)
+					
+					</div>
+					<div class="description">
+						Alias for mapProperty
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b>key</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> The mapped array.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".invoke"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">Ember.Enumerable.</span><b>invoke</b>(methodName, args)
+					
+					</div>
+					<div class="description">
+						Invokes the named method on every object in the receiver that
+    implements it.  This method corresponds to the implementation in
+    Prototype 1.6.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b>methodName</b>
+									
+								</dt>
+								<dd>{String} the name of the method</dd>
+							
+								<dt>
+									<b>args</b>
+									
+								</dt>
+								<dd>{Object...} optional arguments to pass as well.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> return values from calling invoke.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".map"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">Ember.Enumerable.</span><b>map</b>(callback, target)
+					
+					</div>
+					<div class="description">
+						Maps all of the items in the enumeration to another value, returning
+    a new array. This method corresponds to map() defined in JavaScript 1.6.
+
+    The callback method you provide should have the following signature (all
+    parameters are optional):
+
+        function(item, index, enumerable);
+
+    - *item* is the current item in the iteration.
+    - *index* is the current index in the iteration
+    - *enumerable* is the enumerable object itself.
+
+    It should return the mapped value.
+
+    Note that in addition to a callback, you can also pass an optional target
+    object that will be set as "this" on the context. This is a good way
+    to give your iterator function access to the current object.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Function}</span> <b>callback</b>
+									
+								</dt>
+								<dd>The callback to execute</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>target</b>
+									
+								</dt>
+								<dd>The target object to use</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> The mapped array.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".mapProperty"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">Ember.Enumerable.</span><b>mapProperty</b>(key)
+					
+					</div>
+					<div class="description">
+						Similar to map, this specialized function returns the value of the named
+    property on all items in the enumeration.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b>key</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> The mapped array.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".reduce"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">Ember.Enumerable.</span><b>reduce</b>(callback, initialValue, reducerProperty)
+					
+					</div>
+					<div class="description">
+						This will combine the values of the enumerator into a single value. It
+    is a useful way to collect a summary value from an enumeration. This
+    corresponds to the reduce() method defined in JavaScript 1.8.
+
+    The callback method you provide should have the following signature (all
+    parameters are optional):
+
+          function(previousValue, item, index, enumerable);
+
+    - *previousValue* is the value returned by the last call to the iterator.
+    - *item* is the current item in the iteration.
+    - *index* is the current index in the iteration
+    - *enumerable* is the enumerable object itself.
+
+    Return the new cumulative value.
+
+    In addition to the callback you can also pass an initialValue. An error
+    will be raised if you do not pass an initial value and the enumerator is
+    empty.
+
+    Note that unlike the other methods, this method does not allow you to
+    pass a target object to set as this for the callback. It's part of the
+    spec. Sorry.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Function}</span> <b>callback</b>
+									
+								</dt>
+								<dd>The callback to execute</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>initialValue</b>
+									
+								</dt>
+								<dd>Initial value for the reduce</dd>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/String.html">String</a>}</span> <b>reducerProperty</b>
+									
+								</dt>
+								<dd>internal use only.</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> The reduced value.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".removeEnumerableObserver"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">Ember.Enumerable.</span><b>removeEnumerableObserver</b>(target, opts)
+					
+					</div>
+					<div class="description">
+						Removes a registered enumerable observer.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b>target</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<b>opts</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name=".setEach"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Object}</span>
+					<span class="light">Ember.Enumerable.</span><b>setEach</b>(key, value)
+					
+					</div>
+					<div class="description">
+						Sets the value on the named property for each member. This is more
+    efficient than using other methods defined on this helper. If the object
+    implements Ember.Observable, the value will be changed to set(), otherwise
+    it will be set directly. null objects are skipped.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{<a href="../symbols/String.html">String</a>}</span> <b>key</b>
+									
+								</dt>
+								<dd>The key to set</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>value</b>
+									
+								</dt>
+								<dd>The object to set</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Object}</span> receiver</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".some"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">Ember.Enumerable.</span><b>some</b>(callback, target)
+					
+					</div>
+					<div class="description">
+						Returns YES if the passed function returns true for any item in the
+    enumeration. This corresponds with the every() method in JavaScript 1.6.
+
+    The callback method you provide should have the following signature (all
+    parameters are optional):
+
+          function(item, index, enumerable);
+
+    - *item* is the current item in the iteration.
+    - *index* is the current index in the iteration
+    - *enumerable* is the enumerable object itself.
+
+    It should return the YES to include the item in the results, NO otherwise.
+
+    Note that in addition to a callback, you can also pass an optional target
+    object that will be set as "this" on the context. This is a good way
+    to give your iterator function access to the current object.
+
+    Usage Example:
+
+          if (people.some(isManager)) { Paychecks.addBiggerBonus(); }
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Function}</span> <b>callback</b>
+									
+								</dt>
+								<dd>The callback to execute</dd>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>target</b>
+									
+								</dt>
+								<dd>The target object to use</dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> A filtered array.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".someProperty"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Boolean}</span>
+					<span class="light">Ember.Enumerable.</span><b>someProperty</b>(value, value)
+					
+					</div>
+					<div class="description">
+						Returns true if the passed property resolves to true for any item in the
+    enumerable.  This method is often simpler/faster than using a callback.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<b>value</b>
+									
+								</dt>
+								<dd>{String} optional value to test against.</dd>
+							
+								<dt>
+									<b>value</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> true</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".toArray"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{Array}</span>
+					<span class="light">Ember.Enumerable.</span><b>toArray</b>()
+					
+					</div>
+					<div class="description">
+						Simply converts the enumerable into a genuine array.  The order is not 
+    gauranteed.  Corresponds to the method implemented by Prototype.
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> the enumerable as an array.</dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".uniq"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{<a href="../symbols/Ember.Enumerable.html">Ember.Enumerable</a>}</span>
+					<span class="light">Ember.Enumerable.</span><b>uniq</b>()
+					
+					</div>
+					<div class="description">
+						Returns a new enumerable that contains only unique values.  The default
+    implementation returns an array regardless of the receiver type.
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/Ember.Enumerable.html">Ember.Enumerable</a>}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".without"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{<a href="../symbols/Ember.Enumerable.html">Ember.Enumerable</a>}</span>
+					<span class="light">Ember.Enumerable.</span><b>without</b>(value)
+					
+					</div>
+					<div class="description">
+						Returns a new enumerable that excludes the passed value.  The default
+    implementation returns an array regardless of the receiver type unless
+    the receiver does not contain the value.
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Object}</span> <b>value</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/Ember.Enumerable.html">Ember.Enumerable</a>}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+
+		
+<!-- ============================== footer ================================= -->
+		<div class="fineprint" style="clear:both">
+			&copy;2011<br />
+			Documentation generated by <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0 on Sat Dec 31 2011 13:53:33 GMT-0500 (EST)
+		</div>
+	</body>
+</html>

@@ -1,0 +1,68 @@
+[{ "name":"Bryanna's Seitan \"Tofurkey\"",
+    "ingredients":[
+      { "sectionName":"Dry Mix",
+        "ingredients":[
+          { "amount":"2 c.",
+            "description":"pure gluten powder, vital wheat gluten"},
+          { "amount":"1/2 c.",
+            "description":"full-fat soy flour",
+            "substitution":{"amount":"1/2 c.", "description":"chickpea flour"}},
+          { "amount": "1/2 c.",
+            "description":"nutritional yeast flakes"},
+          { "amount":"2 tsp.",
+            "description":"onion powder"},
+          { "amount":"1 tsp.",
+            "description":"garlic granules"},
+          { "amount":"1/4 tsp.",
+            "description": "white pepper",
+            "optional": true}]},
+      { "sectionName":"Wet Mix",
+        "ingredients":[
+          { "amount":"12 oz",
+            "description":"firm regular (not silken) tofu"},
+          { "amount":"1 1/2 c.",
+            "description":"water"},
+          { "amount":"3 T.",
+            "description":"soy sauce"},
+          { "amount":"1 T.",
+            "description":"olive oil"}]},
+      { "sectionName":"Basting Broth",
+        "ingredients":[
+          { "amount":"2 c.",
+            "description":"hot water"},
+          { "amount":"4 tsp.",
+            "description":"better than bouillon"},
+          { "amount":"2 T.",
+            "description":"olive oil"},
+          { "amount":"4",
+            "description":"garlic cloves, curshed"}
+        ]}
+    ],
+    "instructions":[
+      { "description":"In a blender, blend all wet mix ingredients until very smooth."},
+      { "description":"Mix the dry mix ingredients in your mixer bowl."},
+      { "description":"Add wet mix and knead using mixer dough hook.",
+        "time":10 },
+      { "description":"Cover and let rest.",
+        "time":60 },
+      { "description":"Preheat oven to 325 degrees F." },
+      { "description":"Knead dough again, at the end it should be shiny and smooth.",
+        "time":10 },
+      { "description":"Remove dough and flatten dough into one large loaf, avoid breaking it up when you remove it from the bowl." },
+      { "description":"Line 2 to 2 1/2 qt covered oval metal roaster  or covered oval glazed ceramic casserole pan with parchment paper" },
+      { "description":"Place dough in pan and cover with basting broth"},
+      { "description":"Bake for 1 1/2 hours.",
+        "time":90 },
+      { "description":"Turn the roast and bake for another hour.",
+        "time":60 },
+      { "description":"Turn the roast once more and bake for one last hour",
+        "time":60 },
+      { "description":"All of the broth should be absorbed, you may have to cook a little longer to make sure that it all does." }
+    ],
+    "meta":[
+      "Makes about 3 pounds",
+      "Takes about 5 hours to prepare",
+      "Adapted from recipe by Ellen, http://www.ellenskitchen.com"
+    ],
+    "tags":[]
+  }]
